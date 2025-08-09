@@ -23,12 +23,12 @@ public class Cat : Animal
     }
 }
 
-class Program
-{
-    static void Main(string[] args)
-    {
-        new Animal().MakeSound();   // I'm a goat, i'm a goat, merhhh...
-        new Dog().MakeSound();      // Bark
-        new Cat().MakeSound();      // Meow
-    }
-}
+//class Program
+//{
+//    static void Main(string[] args)
+//    {
+//        new Animal().MakeSound();   // I'm a goat, i'm a goat, merhhh...
+//        new Dog().MakeSound();      // Bark
+//        new Cat().MakeSound();      // Meow
+//    }
+//}
