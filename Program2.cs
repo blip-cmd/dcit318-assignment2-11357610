@@ -8,9 +8,8 @@ namespace dcit318_assignment2_11357610
 {
     internal class Program2
     {
-        public static void Main(string[] args)
-        {
-            interface IMoveable
+
+        interface IMoveable
         {
             void Move();
 
@@ -25,16 +24,26 @@ namespace dcit318_assignment2_11357610
 
         }
 
-        class Bicycle : IMoveable {
-            public void Move(){
+        class Bicycle : IMoveable
+        {
+            public void Move()
+            {
                 Console.WriteLine("Bicycle is moving");
-        }
+            }
 
         }
 
+        public static void Main(string[] args)
+        { 
+            Car Toyata = new Car();
+            Toyata.Move();
 
-
-    }         
+            Bicycle Vitus = new Bicycle();
+            Vitus.Move();
+        }
+        
+    }
+}         
 
  
   
