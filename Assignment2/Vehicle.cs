@@ -1,21 +1,20 @@
-﻿using System;   
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace dcit318_assignment2_11357610
+namespace dcit318_assignment2_11357610.Assignment2
 {
-    internal class Program2
+    internal class Vehicles
     {
-
-        interface IMoveable
+        public interface IMoveable
         {
             void Move();
 
         }
 
-        class Car : IMoveable
+        public class Car : IMoveable
         {
             public void Move()
             {
@@ -24,7 +23,7 @@ namespace dcit318_assignment2_11357610
 
         }
 
-        class Bicycle : IMoveable
+        public class Bicycle : IMoveable
         {
             public void Move()
             {
@@ -33,19 +32,5 @@ namespace dcit318_assignment2_11357610
 
         }
 
-        public static void Main(string[] args)
-        { 
-            Car Toyata = new Car();
-            Toyata.Move();
-
-            Bicycle Vitus = new Bicycle();
-            Vitus.Move();
-        }
-        
     }
-}         
-
- 
-  
-
-
+}
