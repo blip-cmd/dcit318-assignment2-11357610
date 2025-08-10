@@ -16,13 +16,21 @@ namespace dcit318_assignment2_11357610
 
         }
 
+        class Car : IMoveable
+        {
+            public void Move()
+            {
+                Console.WriteLine("Car is moving");
+            }
+        }
+
         }
 
 
 
     }         
 
- }
+ 
   
 
 
